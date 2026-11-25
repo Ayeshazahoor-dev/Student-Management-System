@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f5fb;
+    color: #25294a;
+}
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 250px;
+    background: linear-gradient(160deg, #171c3d, #5146a5);
+    color: white;
+    padding: 30px 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 23px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar a {
+    color: #dddafa;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: #7165d9;
+    color: white;
+}
+
+/* Main Dashboard */
+
+.mainContent {
+    flex: 1;
+    padding: 40px;
+}
+
+header {
+    margin-bottom: 35px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #888da6;
+}
+
+/* Statistics Cards */
+
+.stats {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.card {
+    flex: 1 1 180px;
+    background: white;
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(30, 35, 80, 0.06);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #888da6;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+.card p {
+    color: #5146a5;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Student Records */
+
+.studentSection {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(30, 35, 80, 0.06);
+}
+
+.studentSection h2 {
+    margin-bottom: 20px;
+}
+
+.studentSection p {
+    color: #888da6;
+}
+#studentForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin-top: 25px;
+}
+
+#studentForm input {
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+#studentForm input:focus {
+    border-color: #5146a5;
+}
+
+#studentForm button {
+    padding: 14px;
+    background: #5146a5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#studentForm button:hover {
+    background: #393078;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background: #5146a5;
+    color: white;
+}
+
+td {
+    color: #25294a;
+}
+
+tr:nth-child(even) {
+    background: #f4f5fb;
+}
