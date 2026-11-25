@@ -52,4 +52,4 @@ Ayesha Zahoor
 BS Software Engineering Student
 University of Haripur, Pakistan
 
-https://github.com/Ayeshazahoor-dev/StudentManagementSystem
+https://github.com/Ayeshazahoor-dev/Student-Management-System
