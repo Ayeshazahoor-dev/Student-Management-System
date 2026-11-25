@@ -46,12 +46,10 @@ Future Improvements
 * Add advanced form validation.
 * Improve settings functionality.
 * Add database integration.
-
 Developer
-
 Ayesha Zahoor
 
 BS Software Engineering Student
 University of Haripur, Pakistan
 
-GitHub: https://github.com/ayesha-zahoor-dev
+https://github.com/Ayeshazahoor-dev/StudentManagementSystem
